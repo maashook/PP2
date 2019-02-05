@@ -16,7 +16,8 @@ namespace Task_1
             {
                 for(int i = 2; i <= Math.Sqrt(a); i++)//the first prime number is 2 that's why we start i from 2
                     //and if number isn't divided by number <= its square root we can conclude
-                    //that it won't be divided by any other withput remainder
+                    //that it won't be divided by any other without remainder
+                    //Math.Sqrt(a) gives us square root of "a"
                 {
                     if (a % i == 0)//if number can be divided by any other 
                         return false;//number without remainder - it's not prime
