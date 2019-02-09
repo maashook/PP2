@@ -8,24 +8,32 @@ namespace Task3
 {
     class Program
     {
-        static void printAns(int[] arr)//method print elements of array twice
+        static int n;//size of an array
+        static int[] a = new int[1000];//creating array fo input numbers
+        static public void Repeat()//method for pushing elemnts of the given array into new array
         {
-            for(int i = 0; i < arr.Length; i++)//loop for printing numbers from the first to the last element of the given array
+            int[] ans = new int[2 * n];//new array for duplicated numbers
+            for (int i = 0; i < n; i++)//loop for giving values to the elements
             {
-                Console.Write(arr[i] + " " + arr[i] + " ");//printing numbers twice
+                ans[i * 2] = a[i];//current element of dupl. array is equal to the current el. of the given arr
+                ans[i * 2 + 1] = a[i];//next number of dupl. arr. is equal to the current el. of the given array too
+
+            }
+            for (int i = 0; i < 2 * n; i++)//loop for printing answer
+            {
+                Console.Write(ans[i] + " ");//prints elements of the array with spaces
             }
         }
         static void Main(string[] args)
         {
-            int s = int.Parse(Console.ReadLine());//reading the number and parsing it (it will be our size of array)
-            string[] str = Console.ReadLine().Split();//string to read given array and split it by spaces
-            int[] arr = new int[s];//array of integers from the "str" string
-            for(int i = 0; i < s; i++)//loop to parse numbers to integer
+            n = int.Parse(Console.ReadLine());//reading a value of size and parsing it
+            string[] s = Console.ReadLine().Split();//array of strings for our numbers splitted by spaces
+            for(int i = 0; i < n; i++)//loop for giving values for the elements of the array
             {
-                arr[i] = int.Parse(str[i]);//making integers and fill the array with them
+                a[i] = int.Parse(s[i]);//parsing elements of string array into integers
             }
-            printAns(arr);//using created method to print numbers twice
-            Console.ReadKey();//close console be pressing a key
+            Repeat();//calling the method
+            Console.ReadKey();//close console by pressing a key
         }
     }
 }
