@@ -19,7 +19,7 @@ namespace Task4
                     arr[i, j] = "[*]";//giving the values to the elements of an array
                     Console.Write(arr[i, j]);//printing required symbol
                 }
-                Console.WriteLine();//new line after the first lopp ends
+                Console.WriteLine();//new line after the first loop ends
             }
             Console.ReadKey();//closing console only by pressing a key
         }
