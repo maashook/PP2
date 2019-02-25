@@ -1,0 +1,7 @@
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\bin\Debug\XML.exe.config
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\bin\Debug\XML.exe
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\bin\Debug\XML.pdb
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\obj\Debug\XML.csprojAssemblyReference.cache
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\obj\Debug\XML.csproj.CoreCompileInputs.cache
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\obj\Debug\XML.exe
+D:\mashok\kbtu\pp2\Week 5.1\XML\XML\obj\Debug\XML.pdb

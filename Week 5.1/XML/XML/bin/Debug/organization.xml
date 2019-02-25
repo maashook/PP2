@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Organizations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LeaderInfo>
+    <Leader>Dayana Orazbayeva</Leader>
+    <Faculty>FIT</Faculty>
+    <Age>18</Age>
+    <City>Shymkent</City>
+  </LeaderInfo>
+  <LeaderInfo2>
+    <Leader>Linara Ualiyeva</Leader>
+    <Faculty>FIT</Faculty>
+    <Age>19</Age>
+    <City>Atyrau</City>
+  </LeaderInfo2>
+  <LeaderInfo3>
+    <Leader>Lidiya Karnaukhova</Leader>
+    <Faculty>FIT</Faculty>
+    <Age>18</Age>
+    <City>Atyrau</City>
+  </LeaderInfo3>
+  <Organizations>
+    <OrgInfo>
+      <Leader>Dayana Orazbayeva</Leader>
+      <MemCount>13</MemCount>
+      <Name>ProFIT</Name>
+      <Office>228</Office>
+      <Price>200</Price>
+      <Spend>2600</Spend>
+    </OrgInfo>
+    <OrgInfo>
+      <Leader>Linara Ualiyeva</Leader>
+      <MemCount>2</MemCount>
+      <Name>BigCityLights</Name>
+      <Office>312</Office>
+      <Price>100</Price>
+      <Spend>200</Spend>
+    </OrgInfo>
+    <OrgInfo>
+      <Leader>Lidiya Karnaukhova</Leader>
+      <MemCount>84</MemCount>
+      <Name>Killers</Name>
+      <Office>200</Office>
+      <Price>500</Price>
+      <Spend>42000</Spend>
+    </OrgInfo>
+  </Organizations>
+</Organizations>
